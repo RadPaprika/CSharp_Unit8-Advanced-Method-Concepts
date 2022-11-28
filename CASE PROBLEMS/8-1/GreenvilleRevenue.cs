@@ -125,7 +125,6 @@ public class GreenvilleRevenue
                 if (!found)
                     WriteLine("No contestants had talent {0}", talentCodesStrings[pos]);
             }
-
             Write("\nEnter a talent type or {0} to quit >> ", QUIT);
             option = parseChar();
         }
